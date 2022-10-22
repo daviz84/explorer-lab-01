@@ -11,7 +11,7 @@ form .input-wrapper {
 }
 
 form label {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.5rem;
   letter-spacing: 0.01px;
@@ -32,6 +32,7 @@ form input {
   text-transform: uppercase;
 }
 
+
 form .flex {
   gap: 1.4rem;
 }
@@ -40,13 +41,14 @@ form .flex .input-wrapper {
   flex: 1;
 }
 
-form button {
+form #sub {
   margin-top: 1.6rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.6rem 0;
+  width: 100%;
 
   background: #42d3ff;
   border-radius: 0.6rem;
@@ -63,6 +65,24 @@ form button {
   transition: filter 0.3s;
 }
 
+
+
 form button:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.5);
+}
+
+form .button-reset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+
+  background-color: #272727;
+  border: 1px solid black;
+  align-self: center;
+  
 }
